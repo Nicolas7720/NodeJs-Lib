@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/cli.js -t arquivos/texto-kanban.txt -d ./resultados"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolas7720/NodeJs-Lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicolas7720/NodeJs-Lib/issues"
+  },
+  "homepage": "https://github.com/Nicolas7720/NodeJs-Lib#readme",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0"
+  }
+}
